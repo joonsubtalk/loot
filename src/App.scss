@@ -1,0 +1,17 @@
+
+@import './Vendor/normalize.min.css';
+
+@import './Container/Arena/Arena.scss';
+@import './Components/Block/Block.scss';
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 2em;
+}
+
+body {
+    overscroll-behavior: contain;
+}
